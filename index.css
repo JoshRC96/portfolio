@@ -70,7 +70,7 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white); /*defines the font color of my header paragraphs and navigation links on the top (work, cleints, About, contact)*/ /*original color --white-1*/
+    color: var(--white-1); /*defines the font color of my header paragraphs and navigation links on the top (work, cleints, About, contact)*/ /*original color --white-1*/
     line-height: var(--line-height-normal);
     background: var(--black);
     overflow-x: hidden;
@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/header.jpg'); /*image updated (background image*/
     height: 100vh;
     background-size: cover;
     background-position: center;
